@@ -13,16 +13,10 @@ def get_choices():
     if player_choice.lower() == computer_choice.lower():
         return "Draw"
 
-    elif player_choice.lower() == "rock" and computer_choice.lower(
-    ) == "paper" or player_choice.lower() == "paper" and computer_choice.lower(
-    ) == "scissors" or player_choice.lower(
-    ) == "scissors" and computer_choice.lower() == "rock":
+    elif player_choice.lower() == "rock" and computer_choice.lower() == "paper" or player_choice.lower() == "paper" and computer_choice.lower() == "scissors" or player_choice.lower(    ) == "scissors" and computer_choice.lower() == "rock":
         return "Computer wins"
 
-    elif player_choice.lower() == "paper" and computer_choice.lower(
-    ) == "rock" or player_choice.lower() == "rock" and computer_choice.lower(
-    ) == "scissors" or player_choice.lower(
-    ) == "scissors" and computer_choice.lower() == "paper":
+    elif player_choice.lower() == "paper" and computer_choice.lower() == "rock" or player_choice.lower() == "rock" and computer_choice.lower() == "scissors" or player_choice.lower() == "scissors" and computer_choice.lower() == "paper":
         return "Player wins"
 
 
